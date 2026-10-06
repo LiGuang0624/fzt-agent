@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 敏感配置（含 API Key，切勿提交）
+.claude/settings.local.json
+.env
+
+# Claude Code 工具目录（本地生成的技能链接等）
+.claude/
+.agents/
+
+# 运行时生成
+chroma_db/
+logs/
+md5.text
+
+# 编辑器 / 系统
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
